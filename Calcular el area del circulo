@@ -1,0 +1,16 @@
+package area.del.circulo;
+import java.util.*;
+public class AreaDelCirculo {
+
+                   public static void main(String[] args) {
+                        Scanner sc=new Scanner (System.in);
+       
+                        double a,r;
+                        System.out.println("El radio es: \t");
+                        a=sc.nextDouble();
+                        System.out.println("El area del circulo es: "+ (a*a)*3.1416+ "\t");
+        
+        
+    }
+    
+}
