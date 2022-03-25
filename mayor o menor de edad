@@ -1,0 +1,24 @@
+package mayoromenoredad;
+import java.util.*;
+public class Mayoromenoredad 
+{
+    public static void main(String[] args) 
+    {
+Scanner sc=new Scanner(System.in);
+        int edad;
+        System.out.println("¿Cual es tu edad?");
+        edad = sc.nextInt ();
+    
+if (edad <= 17)
+{
+    System.out.println("Eres menor de edad");
+}
+else if (edad >= 18 && edad <=59)
+    System.out.println("Eres nayor de edad");
+else if (edad >= 60 && edad <= 100)
+    System.out.println("Eres de la tercera edad");
+else if(edad > 100)
+    System.out.println("No entras en el rango de edad");
+    }
+}
+  
