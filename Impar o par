@@ -1,0 +1,20 @@
+package imparopar;
+import java.util.*;
+public class Imparopar {
+
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        int num;
+        System.out.println("Coloque su numero:");
+        num=sc.nextInt();
+        
+    if (num%2==0){
+        System.out.println("Tu numero es par");
+    }
+    else {
+        System.out.println("Tu numero es impar");
+    }
+    
+    }
+    
+}
