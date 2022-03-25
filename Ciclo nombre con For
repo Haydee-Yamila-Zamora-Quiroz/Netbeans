@@ -1,0 +1,14 @@
+package ciclonombre;
+import java.util.*;
+public class Ciclonombre {
+
+    public static void main(String[] args) {
+        int i=1;
+       for (i=1; i<=5; i++)
+        {
+            System.out.println("Yami");
+        }   
+//ciclo con for provado//
+    }
+    
+}
