@@ -1,0 +1,17 @@
+package hom;
+import java.util.*;
+public class HoM {
+      
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        String sexo;
+        System.out.println("¿Que sexo eres?¿Mujer o hombre?");
+        sexo=sc.nextLine();
+        if(!"Mujer".equals(sexo))
+            System.out.println("Eres del sexo femenino, eres mujer");
+            else {
+            System.out.println("Eres del sexo masculino, eres hombre");
+        }
+       
+    }   
+}
