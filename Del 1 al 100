@@ -1,0 +1,13 @@
+package pkg1al100;
+import java.util.*;
+public class Main {
+
+    public static void main(String[] args) {
+       //con for imprimir del 1 al 100//
+        int i=1;
+        for (i=1;i<=100;i++){
+            System.out.println("numero"+i);
+        }
+    }
+    
+}
