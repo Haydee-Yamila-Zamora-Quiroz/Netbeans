@@ -1,0 +1,20 @@
+package paroimparmultiplo;
+import java.util.*;
+public class Paroimparmultiplo {
+
+    public static void main(String[] args) {
+    Scanner sc=new Scanner(System.in);
+    int a;
+        System.out.println("Coloque su numero: ");
+        a=sc.nextInt();
+     if (a%10==0)
+     {
+         System.out.println("Tu numero es multiplo de 10 :D " );
+     }
+     else 
+     {
+         System.out.println("Tu numero no es multiplo de 10 ):");
+     }
+    }
+    
+}
