@@ -1,0 +1,29 @@
+package calcbasic2;
+import java.util.*;
+public class Calcbasic2 {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner (System.in);
+        int a;
+        int b;
+        
+        System.out.println("Dame un numero \t");
+        a=sc.nextInt();
+        System.out.println("Dame otro numero \t");
+        b=sc.nextInt();
+        
+         int sum=a+b;
+         int res=a-b;
+         int mult=a*b;
+         int div=a/b;
+         int mod=a%b;
+         
+         System.out.println("El valor de la suma es igual a:"+(a+b));
+         System.out.println("El valor de la resta es igual a:"+(a-b));
+         System.out.println("El valor de la multiplicacion es igual a:"+(a*b));
+         System.out.println("El valor de la division es igual a:"+(a/b));
+         System.out.println("El valor del modulo es igual a:"+(a%b));
+    
+    }
+    
+}
