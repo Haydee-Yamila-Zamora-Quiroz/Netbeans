@@ -1,0 +1,15 @@
+package introdatos1;
+import java.io.*;
+public class Introdatos1 {
+
+    public static void main(String[] args) throws IOException{
+        int l;
+        String cadena;
+        DataInputStream teclado=new DataInputStream(System.in);
+        System.out.println("Dame un numero:");
+        cadena=teclado.readLine();
+        l=Integer.valueOf(cadena);
+        System.out.println("El numero es: "+l);
+    }
+    
+}
