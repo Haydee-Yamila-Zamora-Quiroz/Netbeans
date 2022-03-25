@@ -1,0 +1,15 @@
+package volumen.de.una.esfera;
+import java.util.*;
+public class VolumenDeUnaEsfera {
+    
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        double r;
+        double v;
+        System.out.println("Ingrese el valor de su radio:");
+        r=sc.nextDouble();
+        v = (4/3)*3.1416 * r*r*r;
+        System.out.println("El volumen de tu esfera es: "+v);
+    }
+    
+}
