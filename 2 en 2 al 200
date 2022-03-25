@@ -1,0 +1,16 @@
+package pkg2en2al200;
+import java.util.*;
+public class Main {
+
+    public static void main(String[] args) {
+        //while imprimir de 2 en 2 hasta el 200//
+        
+        int i=2;
+        while (i<=200)
+        {
+            System.out.println("numero "+i);
+            i=i+2;
+        }
+    }
+    
+}
