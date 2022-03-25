@@ -1,0 +1,19 @@
+package asterisco2;
+import java.util.*;
+public class Asterisco2 {
+
+    public static void main(String[] args) {
+        int dato;
+        int i;
+        String b="*";
+        Scanner sc=new Scanner(System.in);
+        System.out.println("¿Cuantas filas quieres que tengan los asteriscos?");
+        dato=sc.nextInt();
+        for (i=2; i<=dato+1; i++)
+        {
+            System.out.println(b);
+            b=b+"*";
+        }
+    }
+    
+}
