@@ -1,0 +1,14 @@
+package suma1.pkg10;
+import java.util.*;
+public class Suma110 {
+
+    public static void main(String[] args) {
+        int i=0, num=0, num1=0;
+        for (i=0; i<10;i++){
+            num++;
+            num1 += num;
+            System.out.println(num+"-"+num1);
+        }
+    }
+    
+}
